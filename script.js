@@ -2,15 +2,7 @@ let result = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
 let cityRef = document.getElementById("city");
 
-<<<<<<< HEAD
-// const API_KEY = `ae18c8e0426d4e7386f111746230805`;
-// const url = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=bulk/`;
-
 const API_KEY = '5458b1cca78ac803f08d4bb46be40a3e';
-=======
-const API_KEY = `ae18c8e0426d4e7386f111746230805`;
-const url = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=bulk`;
->>>>>>> 3d6c0cbc25f2d7f6cd042dd1ad3db02e960a8e83
 
 const getWeather = (() => {
     let city_name = cityRef.value;
